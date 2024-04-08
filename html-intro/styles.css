@@ -37,10 +37,10 @@ h2{
     color: red
 }
 #places ul li{
-    color: blueviolet
+    color: rgb(43, 226, 156)
 }
 #hobbies ul li{
-    color: yellow}
+    color: rgb(221, 221, 17)}
 /* otras formas son #hobbies li(busca cualquier li) 
 #hobbies > ul > li (busca el hijo directo de hobbies, y de ul */    
 
