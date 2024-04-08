@@ -1,0 +1,71 @@
+/*@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
+*/
+body {
+    background-color: #b7b7b7;
+    color: rgb(43, 43, 43);
+    background-image: url(https://arche-ele.com/wp-content/uploads/2020/12/1-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    color: rgb(94  , 3, 3)
+}
+h1 {
+    color: blueviolet
+}
+#titulo{
+    color: green;
+} /* Especificidad si este color va antes del resto de h1, se seguiria aplicando, 
+en vez del último, porque está asignado a una id */
+
+/* Especificidad como se aplica:
+1- Estilos en línea. pero en html se considera mala practica, se pone directamente en html añadiendoi propiedad de style
+2- Estilos a través de Ids.
+3- Estilos de class
+4- estilos de etiquetas
+5- estilos a través de atributos (no se usa apenas)
+*/
+h2{
+    color: brown
+}
+#title-students {color:rgb(76, 0, 255)}
+#title-places {color:green}
+#hobbies {color: purple}
+#students ul li{
+    color: red
+}
+#places ul li{
+    color: blueviolet
+}
+#hobbies ul li{
+    color: yellow}
+/* otras formas son #hobbies li(busca cualquier li) 
+#hobbies > ul > li (busca el hijo directo de hobbies, y de ul */    
+
+/* content (texto imagen blabla), Padding es una distancia entre el contenido y el bortder, 
+Border es un elemento visual que encaja el contenido, margin es una distancia entre el border y la pagina.
+*/
+/*metiendo comas pudo añadir más secciones al mismo estilo*/
+#students, #places, #hobbies {
+    background-color: aquamarine;
+    /*border-style: solid;
+    border-width: 10px;
+    border-color:blueviolet; */
+    border: dotted 10px blueviolet;
+    border-radius: 50px;
+   margin-top: 200px;
+    margin-left: 50px;
+    margin-right: 50px; 
+   /* margin: 10px 200px 5px 80px;*/
+
+    padding-left: 20px;
+}
+#titulo {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 5px black
+}

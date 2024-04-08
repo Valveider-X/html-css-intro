@@ -1,0 +1,5 @@
+/* Si usas un estilo diferente en el mismo elemento varias veces, solo se querdará el último
+y puede dar error */
+p{color: lightblue} /* en un tag: a todos los parrafos*/
+#cat-quote{color: green} /* por ID (suele ser un solo parrafo, no es buena practica reutilizarlo)*/
+.quote {color: yellow} /* por clase (suelen ser reutilizables)*/
